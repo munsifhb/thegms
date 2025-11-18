@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.font-1 {
+  font-family: 'Segoe UI', sans-serif;
+}
+.font-2 {
+  font-family: Poppins, sans-serif
+;
+}
+
+.radius-1 {
+  border-radius: 0px 50px 50px 0px;
+}
