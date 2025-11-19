@@ -41,13 +41,13 @@ export default function Connect( { isOpen, setIsOpen } ) {
             </div>
 
             
-                <div data-aos='fade-left' className="w-3/5 px-10 py-12 bg-gray-50/65 backdrop-blur-md rounded-xl lg:w-3/5 md:w-full sm:w-full">
+                <div data-aos='fade-left' className="w-3/5 px-10 py-12 md:px-10 md:py-12 sm:px-3 sm:py-5 bg-gray-50/65 backdrop-blur-md rounded-xl lg:w-3/5 md:w-full sm:w-full">
                     <h1 className="text-4xl font-semibold text-center md:text-7xl sm:text-5xl font-1 text-emerald-700">Join GMS Connect Today!</h1>
                     <p className="mx-auto mt-6 font-mono text-lg text-center md:text-sm sm:text-xs text-emerald-700 text-balance">
                         GMS Connect is our flagship mobile app designed to support you on your journey toward sustainable living and mental wellbeing. It connects you to a supportive community of change-makers, offers guided actions, and provides daily habits and reflections that help you grow at your own pace.
                     </p>
                     
-                    <h1 className="text-4xl font-semibold text-start md:text-4xl sm:text-3xl font-1 text-emerald-700">Key Features</h1>
+                    <h1 className="mt-5 text-4xl font-semibold text-start md:text-4xl sm:text-3xl font-1 text-emerald-700">Key Features</h1>
 
                     <div className="mt-6">
                         <ul className="px-6 font-mono text-lg md:text-sm sm:text-xs text-emerald-700 text-balance">

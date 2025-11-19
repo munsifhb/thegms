@@ -5,17 +5,18 @@ export default function Footer({ isOpen, setIsOpen }) {
     <div>
         <footer onClick={() => isOpen ? setIsOpen(false) : null} className="">
 
-            <div className="flex flex-col items-center justify-center px-10 py-6 bg-emerald-700">
+            <div className="flex flex-col items-center justify-center px-10 py-6 md:px-10 sm:px-5 bg-emerald-700">
             
-            <div className="flex items-center justify-between w-4/5 gap-5 sm:flex-row sm:w-full md:w-4/5 md:flex-row lg:flex-row">
+            <div className="flex items-center justify-between w-4/5 gap-5 md:gap-5 sm:gap-1 sm:flex-row sm:w-full md:w-4/5 md:flex-row lg:flex-row">
             <div className="flex flex-col gap-2">
-                <h1 className="text-2xl font-semibold font-1 text-gray-50">Connect</h1>
-                <p className="text-lg text-gray-50">Learn. Act. Reflect. Grow.</p>
+                <h1 className="text-2xl font-semibold font-1 text-gray-50 md:text-2xl sm:text-lg">Connect</h1>
+                <p className="text-lg text-gray-50 md:text-lg sm:text-xs">Learn. Act. Reflect. Grow.</p>
             </div>
-            <div className="flex flex-col gap-2">
-                <h1 className="text-2xl font-semibold font-1 text-gray-50">Contact</h1>
-                <p className="text-lg text-gray-50">+234 816 176 5783</p>
-                <p className="text-lg text-gray-50">thegms@gmail.com</p>
+            <div className="flex flex-col gap-2 px-1">
+                <h1 className="text-2xl font-semibold font-1 text-gray-50 md:text-2xl sm:text-lg">Contact</h1>
+                <p className="text-lg text-gray-50 md:text-lg sm:text-xs">+234 9011 418 084
+</p>
+                <p className="text-lg md:text-lg sm:text-xs text-gray-50">thegreenmindsspace@gmail.com</p>
             </div>
             </div>
 

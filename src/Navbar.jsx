@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 export default function Navbar({ isOpen, setIsOpen }) {
   return (
     <div>
-        <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between w-full px-10 py-1 shadow-md lg:px-10 sm:px-5 md:px-2 bg-gray-50">
+        <header className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between w-full px-10 py-1 shadow-md lg:px-10 sm:px-5 md:px-2 bg-gray-50/80 backdrop-blur-md">
             <img src="./images/Logo.png" alt="" className="w-16 h-16 cursor-pointer md:w-16 md:h-16 sm:w-12 sm:h-12" />
 
             <nav className={`flex gap-8 lg:gap-8 z-50 overflow-hidden sm:gap-3 transition-all duration-300 sm:flex-col sm:h-svh sm:w-4/5 sm:top-14 sm:bg-gray-50 sm:right-0 sm:shadow-xl sm:px-5 sm:absolute sm:py-0 sm:opacity-0  md:mt-0 md:bg-transparent md:translate-x-0 md:shadow-none md:opacity-100 md:px-0 md:py-0 md:flex-row md:h-fit md:w-fit md:static

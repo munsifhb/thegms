@@ -24,7 +24,7 @@ export default function Test( { isOpen, setIsOpen } ) {
             <div className="flex items-center justify-center px-5 py-20 bg-gradient-to-r from-emerald-700/55 via-emerald-700/40 to-gray-50/0 lg:flex-row sm:flex-col lg:gap-0 md:gap-10 sm:gap-10">
                 <div data-aos='fade-right' className="w-2/4 p-5 md:w-2/4 sm:w-full">
                 <h1 className="font-semibold tracking-tighter capitalize text-7xl md:text-5xl lg:text-7xl sm:text-4xl font-1 text-start text-gray-50">
-                    Join the Wait List..
+                    Join the Waitlist..
                 </h1>
                 <p className="mx-auto mt-6 font-mono text-lg md:text-lg sm:text-sm text-start md:text-start sm:text-wrap text-gray-50 text-balance">
                     Be part of a growing community that cares for the planet and cares for people.
