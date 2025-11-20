@@ -11,12 +11,12 @@ export default function Navbar({ isOpen, setIsOpen }) {
               +
               ${isOpen ? 'sm:opacity-100 sm:h-svh md:h-0 transition-all sm:py-8 duration-300':'md:h-fit sm:h-0 sm:opacity-0 sm:py-0'}`}>
                 
-                <Link className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/">Home</Link>
-                <Link className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/about">About</Link>
-                <Link className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/contact">Contact</Link>
-                <Link className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/projects">Projects</Link>
-                <Link className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/learnhub">Learn hub</Link>
-                <Link className='text-sm font-semibold mt-5 md:hidden transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/signup">Sign-up</Link>
+                <Link onClick={() => isOpen ? setIsOpen(false) : null} className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/">Home</Link>
+                <Link onClick={() => isOpen ? setIsOpen(false) : null} className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/about">About</Link>
+                <Link onClick={() => isOpen ? setIsOpen(false) : null} className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/contact">Contact</Link>
+                <Link onClick={() => isOpen ? setIsOpen(false) : null} className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/projects">Projects</Link>
+                <Link onClick={() => isOpen ? setIsOpen(false) : null} className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/learnhub">Learn hub</Link>
+                <Link onClick={() => isOpen ? setIsOpen(false) : null} className='text-sm font-semibold mt-5 md:hidden transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/signup">Sign-up</Link>
                 
                 
 
