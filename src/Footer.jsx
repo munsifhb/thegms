@@ -27,7 +27,7 @@ export default function Footer({ isOpen, setIsOpen }) {
            </div>
               </div>
            
-           <h1 className="p-1 font-mono text-lg text-center md:text-lg sm:text-xs text-emerald-700 bg-gray-50">© 2024 The GMS. All rights reserved.</h1>
+           <h1 className="p-1 font-mono text-lg text-center md:text-lg sm:text-xs text-emerald-700 bg-gray-50">© 2025 The GMS. All rights reserved.</h1>
 
         </footer>
     </div>
