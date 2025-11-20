@@ -2,6 +2,13 @@ import React from 'react'
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import About from '../Components/About';
+import Pilars from '../Components/Pilars';
+import Connect from '../Components/Connect';
+import Test from '../Components/Test';
+import Footer from '../Components/Footer';
+
+
 
 export default function Home({ isOpen, setIsOpen }) {
     useEffect(() => {
@@ -30,8 +37,8 @@ export default function Home({ isOpen, setIsOpen }) {
                         Join a community of people committed to sustainable living, climate action, and mental wellbeing. Together, we learn, take action, and grow into healthier versions of ourselves—while building a healthier planet.
                     </p>
                     <div className="flex gap-6 mt-4">
-                        <button className="px-2 py-1 bg-emerald-700 text-gray-50">Join Waitlist</button>
-                        <button className="px-2 py-1 bg-white ring-1 ring-emerald-700 text-emerald-700">Learn More</button>
+                        <button className="px-5 py-2 rounded-sm bg-emerald-700 text-gray-50">Join Waitlist</button>
+                        <button className="px-5 rounded-sm py-2 bg-white ring-1 ring-emerald-700 text-emerald-700">Learn More</button>
                     
                     </div>
                     
@@ -50,6 +57,12 @@ export default function Home({ isOpen, setIsOpen }) {
                 </div> */}
             </div>
         </section>
+      
+      <About isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Pilars isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Connect isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Test isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Footer isOpen={isOpen} setIsOpen={setIsOpen} />
     </div>
   )
 }
