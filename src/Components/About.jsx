@@ -27,7 +27,7 @@ export default function About( { isOpen, setIsOpen } ) {
 
             <div className="w-2/4 md:w-2/4 sm:w-full">
                 <div data-aos='zoom-in' className="w-4/5 mx-auto mt-10 overflow-hidden shadow-lg group rounded-xl md:w-4/5 sm:w-full">
-                    <img src="./images/plant-1.jpeg" alt="Plant" className="w-full transition-all duration-200 delay-150 h-80 group-hover:scale-110" />
+                    <img src="./images/pic-2.jpg" alt="Plant" className="w-full transition-all duration-200 delay-150 h-96 group-hover:scale-110" />
                 </div>
             </div>
             </div>

@@ -21,10 +21,10 @@ export default function Test( { isOpen, setIsOpen } ) {
   return (
     <div onClick={() => isOpen ? setIsOpen(false) : null}>
         <section style={myStyle} className="overflow-hidden">
-            <div className="flex sm:items-center md:justify-start sm:justify-center px-5 sm:px-2 md:px-5 py-20 bg-gradient-to-r from-emerald-700/55 via-emerald-700/40 to-gray-50/0 lg:flex-row sm:flex-col lg:gap-0 md:gap-10 sm:gap-10">
+            <div className="flex px-5 py-20 sm:items-center md:justify-start sm:justify-center sm:px-2 md:px-5 bg-gradient-to-r from-emerald-700/55 via-emerald-700/40 to-gray-50/0 lg:flex-row sm:flex-col lg:gap-0 md:gap-10 sm:gap-10">
                 <div data-aos='fade-right' className="w-2/4 p-5 sm:p-2 md:p-5 md:w-2/4 sm:w-full">
                 <h1 className="font-semibold tracking-tighter capitalize text-7xl md:text-5xl lg:text-7xl sm:text-4xl font-1 text-start text-gray-50">
-                    Join Our Newslater...
+                    Subscribe To Our Newslater...
                 </h1>
                 <p className="mx-auto mt-6 font-mono text-lg md:text-lg sm:text-sm text-start md:text-start sm:text-wrap text-gray-50 text-balance">
                     Be part of a growing community that cares for the planet and cares for people.
@@ -32,9 +32,9 @@ export default function Test( { isOpen, setIsOpen } ) {
 
                 </p>
 
-                <form action="" className="flex w-full bg-emerald-700 p-2 sm:p-1 md:p-2 mt-5 rounded-md gap-4">
-                        <input type="text" placeholder="Email" className="w-full text-gray-50 px-4 py-2 text-lg rounded-md focus:outline-none bg-transparent"/>
-                        <button type="submit" className="px-4 py-2 sm:px-2 md:px-4 sm:py-1 md:py-2 sm:text-xs md:text-lg font-mono text-lg transition-colors duration-200 rounded-md bg-gray-50 text-emerald-700 hover:bg-emerald-800">Subscribe</button>
+                <form action="" className="flex w-full gap-4 p-2 mt-5 rounded-md bg-emerald-700 sm:p-1 md:p-2">
+                        <input type="text" placeholder="Email" className="w-full px-4 py-2 text-lg bg-transparent rounded-md text-gray-50 focus:outline-none"/>
+                        <button type="submit" className="px-4 py-2 font-mono text-lg transition-colors duration-200 rounded-md sm:px-2 md:px-4 sm:py-1 md:py-2 sm:text-xs md:text-lg bg-gray-50 text-emerald-700 hover:bg-emerald-800">Subscribe</button>
                     </form>
                 </div>
 

@@ -13,10 +13,12 @@ export default function Navbar({ isOpen, setIsOpen }) {
                 
                 <Link onClick={() => isOpen ? setIsOpen(false) : null} className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/">Home</Link>
                 <Link onClick={() => isOpen ? setIsOpen(false) : null} className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/about">About</Link>
-                <Link onClick={() => isOpen ? setIsOpen(false) : null} className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/contact">Contact</Link>
-                <Link onClick={() => isOpen ? setIsOpen(false) : null} className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/projects">Projects</Link>
+                <Link onClick={() => isOpen ? setIsOpen(false) : null} className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/contact">CDP Hub</Link>
+                <Link onClick={() => isOpen ? setIsOpen(false) : null} className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/projects">Buddy System</Link>
                 <Link onClick={() => isOpen ? setIsOpen(false) : null} className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/learnhub">Learn hub</Link>
-                <Link onClick={() => isOpen ? setIsOpen(false) : null} className='text-sm font-semibold mt-5 md:hidden transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/signup">Sign-up</Link>
+                <Link onClick={() => isOpen ? setIsOpen(false) : null} className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/learnhub">Mentor System</Link>
+                <Link onClick={() => isOpen ? setIsOpen(false) : null} className='text-sm font-semibold transition-colors duration-200 cursor-pointer sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/learnhub">Communities</Link>
+                <Link onClick={() => isOpen ? setIsOpen(false) : null} className='mt-5 text-sm font-semibold transition-colors duration-200 cursor-pointer md:hidden sm:text-2xl md:text-sm text-emerald-700 font-1 hover:text-emerald-900/55' to="/signup">Sign-up</Link>
                 
                 
 
