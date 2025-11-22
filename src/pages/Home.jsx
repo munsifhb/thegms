@@ -7,6 +7,7 @@ import Pilars from '../Components/Pilars';
 import Connect from '../Components/Connect';
 import Test from '../Components/Test';
 import Footer from '../Components/Footer';
+import Mentors from '../Components/Mentors';
 
 
 
@@ -38,7 +39,7 @@ export default function Home({ isOpen, setIsOpen }) {
                     </p>
                     <div className="flex gap-6 mt-4">
                         <button className="px-5 py-2 rounded-sm bg-emerald-700 text-gray-50">Join Waitlist</button>
-                        <button className="px-5 rounded-sm py-2 bg-white ring-1 ring-emerald-700 text-emerald-700">Learn More</button>
+                        <button className="px-5 py-2 bg-white rounded-sm ring-1 ring-emerald-700 text-emerald-700">Learn More</button>
                     
                     </div>
                     
@@ -61,6 +62,7 @@ export default function Home({ isOpen, setIsOpen }) {
       <About isOpen={isOpen} setIsOpen={setIsOpen} />
       <Pilars isOpen={isOpen} setIsOpen={setIsOpen} />
       <Connect isOpen={isOpen} setIsOpen={setIsOpen} />
+      <Mentors isOpen={isOpen} setIsOpen={setIsOpen} />
       <Test isOpen={isOpen} setIsOpen={setIsOpen} />
       <Footer isOpen={isOpen} setIsOpen={setIsOpen} />
     </div>
