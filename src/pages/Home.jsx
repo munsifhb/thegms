@@ -38,8 +38,8 @@ export default function Home({ isOpen, setIsOpen }) {
                         Join a community of people committed to sustainable living, climate action, and mental wellbeing. Together, we learn, take action, and grow into healthier versions of ourselves—while building a healthier planet.
                     </p>
                     <div className="flex gap-6 mt-4">
-                        <button className="px-5 py-2 rounded-sm bg-emerald-700 text-gray-50">Join Waitlist</button>
-                        <button className="px-5 py-2 bg-white rounded-sm ring-1 ring-emerald-700 text-emerald-700">Learn More</button>
+                        <button className="px-5 py-2 transition-all rounded-sm active:scale-105 bg-emerald-700 text-gray-50">Join Waitlist</button>
+                        <button className="px-5 py-2 transition-all bg-white rounded-sm active:scale-105 ring-1 ring-emerald-700 text-emerald-700">Learn More</button>
                     
                     </div>
                     

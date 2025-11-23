@@ -34,7 +34,7 @@ export default function Mentors({ isOpen, setIsOpen }) {
                 </div>
                 
 
-                <div  className="absolute w-2/4 mt-10 -rotate-45 bg-emerald-700 h-80 -right-28 lg:-right-28 sm:-right-96"></div>
+                <div  className="absolute w-2/4 mt-10 -rotate-45 bg-emerald-700/10 h-80 -right-28 lg:-right-28 sm:-right-96"></div>
             </div>
         </section>
 

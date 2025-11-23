@@ -34,7 +34,7 @@ export default function Test( { isOpen, setIsOpen } ) {
 
                 <form action="" className="flex w-full gap-4 p-2 mt-5 rounded-md bg-emerald-700 sm:p-1 md:p-2">
                         <input type="text" placeholder="Email" className="w-full px-4 py-2 text-lg bg-transparent rounded-md text-gray-50 focus:outline-none"/>
-                        <button type="submit" className="px-4 py-2 font-mono text-lg transition-colors duration-200 rounded-md sm:px-2 md:px-4 sm:py-1 md:py-2 sm:text-xs md:text-lg bg-gray-50 text-emerald-700 hover:bg-emerald-800">Subscribe</button>
+                        <button type="submit" className="px-4 py-2 font-mono text-lg transition-colors duration-200 rounded-md sm:px-2 md:px-4 sm:py-1 md:py-2 sm:text-xs md:text-lg bg-gray-50 text-emerald-700 hover:bg-emerald-500 hover:text-gray-50">Subscribe</button>
                     </form>
                 </div>
 
